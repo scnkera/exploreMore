@@ -1,5 +1,99 @@
-*{
+.container-fluid{
+    min-width: 675px;
+}
+#navBar {
+    /* background-color: black; */
+    border-bottom: 0.5px solid white;
+    padding: 20px 0px;
+}
+
+#navPageSections{
+    overflow-x: scroll;
+}
+
+#homePageName{
+    font-size: 30px;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+#navPageSections span{
+    padding: 10px;
+    color: white;
+}
+
+#navPageSections .navEffect:hover{
+    /* color: lightslategrey; */
+    cursor: pointer;
+    border-bottom: 5px solid whitesmoke;
+    padding-bottom: 0;
+}
+
+#exploreMoreLogo{
+    font-size: 50px;
+    /* display: flex; */
+    align-items: center;
+}
+
+#mainHomePageContent{
+    /* border: 5px solid white; */
+    height: calc(100vh - 64.5px);
+    padding-top: calc((100vh - 164.5px)/3);
+    width: 100vw;
+}
+
+
+#homeSection {
+	background-image: url("../static/skylineDark.jpg");
+	min-height: 100vh;
+	background-size: cover;
+    padding:0;
+}
+
+#homePageInfo{
+    color: white;
     margin: 0;
-    padding 0;
-    box-sizing: border-box;
+}
+
+#mainHomePageContent{
+    border: 3px solid white;
+}
+
+#homePageMotto{
+    font-size: 60px;
+    text-shadow: 4px 4px black;
+    font-weight: 700;
+}
+#homePageDescription{
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+#homePageExploreNow,
+#homePageLearnMore {
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#homePageExploreNow{
+    margin-right: 5px;
+}
+
+#homePageLearnMore {
+    margin-left: 5px;
+}
+
+/* NOTE ADD A HOVER EFFECT */
+/* .iconSpacing:hover {
+    transform: scale(3.25);
+} */
+
+
+#downArrow{
+    height: 100px;
+    font-size: 50px;
+    padding-top: calc(25px/3);
 }
