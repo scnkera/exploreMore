@@ -1,3 +1,1 @@
-tests
-
-static/skylineBright.jpg
+index.html
