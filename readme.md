@@ -1,1 +1,1 @@
-index.html
+permalink: /pages/index.html
