@@ -17,7 +17,7 @@
     <!-- Bootstrap Icon Link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <!-- Link to Main Page Style Sheet -->
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
@@ -33,38 +33,341 @@
                     <span class="navEffect">Destinations</span>
                     <span class="navEffect">Randomizer</span>
                 </div>
+                <form class="col-4 d-flex align-items-center justify-content-end" id="navSearchBar">
+                    <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search..." value="" />
+                    <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                        <span class="material-symbols-outlined d-flex align-items-center">
+                            search
+                        </span>
+                    </button>
+                </form>
                 <!-- end of nav bar content -->
             </div>
             <div class="row text-center" id="mainHomePageContent">
                 <div class="row d-flex justify-content-center" id="homePageMotto">
-                    <div class="col col-xl-8 col-md-10 col-sm-12">
+                    <div class="col col-md-10 col-sm-8" id="homePageMottoAnimation">
                         Unleash Your Wanderlust
                     </div>
-                    <!-- end of  -->
+                    <!-- end of home page motto-->
                 </div>
                 <div class="row d-flex justify-content-center" id="homePageDescription">
-                    <div class="col col-xl-6 col-md-10 col-sm-12">
+                    <div class="col col-xl-7 col-lg-10 col-sm-12" id="homePageDescriptionAnimation">
                         Get ready for the adventure of a lifetime! Discover unique excursions, thrilling activities, and
                         delightful dining options curated just for you. Your next unforgettable journey starts here.
                     </div>
+                    <!-- end of home page description -->
                 </div>
                 <div class="row d-flex justify-content-center" id="homePageButtons">
-                    <div class="col-2 d-flex justify-content-center" id="homePageExploreNow">
+                    <button type="button" class="col-2 homePageButtonsAnimation" id="homePageExploreNow">
                         Explore Now
-                    </div>
-                    <div class="col-2 d-flex justify-content-center" id="homePageLearnMore">
+                    </button>
+                    <button type="button" class="col-2 homePageButtonsAnimation" id="homePageLearnMore">
                         Learn More
-                    </div>
+                    </button>
+                    <!-- end of home page buttons section -->
                 </div>
             </div>
-            <div class="row text-center" id="downArrow">
+            <div class="row d-flex align-items-center text-center" id="downArrow">
                 <div class="col">
-                    <i class="bi bi-arrow-down-circle-fill"></i>
+                    <a href="#whyExploreMoreSecton">
+                        <span class="material-symbols-outlined bounce" id="mainContentArrow">
+                            expand_more
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
-        <!-- end of container-fluid -->
+        <!-- end of home content container-fluid -->
     </div>
+
+    <!-- Sectoin 2: Why Use Explore Now -->
+
+    <div class="container-fluid" id="whyExploreMoreSecton">
+        <div class="row justify-content-center text-center" id="whyEMTitle">
+            <h3 class="col bold">
+                Why Utilize ExploreMore?
+            </h3>
+        </div>
+        <div class="row justify-content-center" id="whyEMDescription">
+            <p class="col-xl-8 col-md-10 col-sm-12 text-center greyText">
+                We are not your average tour company. Our carefully selected experiences and local
+                hotspots are guaranteed to satisfy your inner thrill seeker and coffee enthusiast. From
+                adrenaline-pumping activities to cozy cafes, we've got you covered.
+            </p>
+        </div>
+
+        <div class="row text-center" id="threeFeaturesCol">
+            <div class="col-4">
+                <div class="row d-flex align-items-center greyText">
+                    <span class="material-symbols-outlined">
+                        trending_up
+                    </span>
+                </div>
+                <div class="row bold d-flex justify-content-center">
+                    Endless Options
+                </div>
+                <div class="row greyText">
+                    With a wide variety of activities and dining choices, you'll never run out of things to do and
+                    places to explore.
+                </div>
+                <!-- end of end options col -->
+            </div>
+            <div class="col-4">
+                <div class="row d-flex align-items-center greyText">
+                    <span class="material-symbols-outlined">
+                        local_activity
+                    </span>
+                </div>
+                <div class="row bold d-flex justify-content-center">
+                    Expert Curation
+                </div>
+                <div class="row greyText">
+                    With a wide variety of activities and dining choices, you'll never run out of things to do and
+                    places to explore.
+                </div>
+                <!-- end of expert curation col -->
+            </div>
+            <div class="col-4">
+                <div class="row d-flex align-items-center greyText">
+                    <span class="material-symbols-outlined">
+                        person_celebrate
+                    </span>
+                </div>
+                <div class="row bold d-flex justify-content-center">
+                    Local Flair
+                </div>
+                <div class="row greyText">
+                    With a wide variety of activities and dining choices, you'll never run out of things to do and
+                    places to explore.
+                </div>
+                <!-- end of expert local flair -->
+            </div>
+            <!-- end of three features -->
+        </div>
+        <!-- end of why Explore More container-fluid-->
+    </div>
+
+    <!-- Sectoin 3: Savor the Experience -->
+
+    <div class="container-fluid" id="savorTheExperience">
+        <div class="row d-flex align-items-center">
+            <div class="col-6 textBlock">
+                <h3 class="row bold specialBlueText">
+                    Savor the Experience
+                </h3>
+                <div class="row greyText">
+                    Uncover hidden gems and must-visit attractions with our personalized recommendations. Let the
+                    adventure begin!
+                </div>
+                <div class="row">
+                    <div class="col-1 d-flex justify-content-end">
+                        <span class="material-symbols-outlined specialBlueText bold">
+                            task_alt
+                        </span>
+                    </div>
+                    <div class="col-11">
+                        <div class="row specialBlueText bold steTitle">
+                            Unique Dining
+                        </div>
+                        <div class="row greyText">
+                            Indulge in the finest local cuisines and discover charming cafes and eateries off the beaten
+                            path.
+                        </div>
+                    </div>
+                    <!-- end of unique dining section -->
+                </div>
+                <div class="row">
+                    <div class="col-1 d-flex justify-content-end">
+                        <span class="material-symbols-outlined specialBlueText bold">
+                            task_alt
+                        </span>
+                    </div>
+                    <div class="col-11">
+                        <div class="row specialBlueText bold steTitle">
+                            Adventure Awaits
+                        </div>
+                        <div class="row greyText">
+                            Embark on thrilling excursions and outdoor activities that are sure to get your adrenaline
+                            pumping. </div>
+                    </div>
+                    <!-- end of adventure awaits section -->
+                </div>
+                <div class="row">
+                    <div class="col-1 d-flex justify-content-end">
+                        <span class="material-symbols-outlined specialBlueText bold">
+                            task_alt
+                        </span>
+                    </div>
+                    <div class="col-11">
+                        <div class="row specialBlueText bold steTitle">
+                            Local Delights
+                        </div>
+                        <div class="row greyText">
+                            Immerse yourself in the vibrant local culture and experience the heart and soul of each
+                            destination.
+                        </div>
+                    </div>
+                    <!-- end of local delights section -->
+                </div>
+
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <img src="../static/mealDark.jpg" class="img-fluid imageStyle">
+                </img>
+                <!-- end of image fluid -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: Discover Your Next Adventure -->
+    <div class="container-fluid" id="discoverYourAdventure">
+        <div class="row d-flex align-items-center">
+            <div class="col-6 d-flex justify-content-center">
+                <img src="../static/suspendedBridge.jpeg" class="img-fluid imageStyle">
+                </img>
+                <!-- end of image fluid -->
+            </div>
+            <div class="col-6 textBlock">
+                <h3 class="row bold">
+                    Discover Your Next Adventure
+                </h3>
+                <div class="row greyText">
+                    Uncover the best-kept secrets and exciting experiences in every city you visit. Let the exploration begin!
+                </div>
+                <div class="row">
+                    <div class="col-1 d-flex justify-content-end">
+                        <span class="material-symbols-outlined bold specialBlueText">
+                            task_alt
+                        </span>
+                    </div>
+                    <div class="col-11">
+                        <div class="row bold steTitle">
+                            Off-The-Beaten-Path
+                        </div>
+                        <div class="row greyText">
+                            Explore hidden gems and unique spots that are off the radar of traditional tourists.
+                        </div>
+                    </div>
+                    <!-- end of off-thebeaten-Path section -->
+                </div>
+                <div class="row">
+                    <div class="col-1 d-flex justify-content-end">
+                        <span class="material-symbols-outlined bold specialBlueText">
+                            task_alt
+                        </span>
+                    </div>
+                    <div class="col-11">
+                        <div class="row bold steTitle">
+                            Thrill-Seeker's Paradise
+                        </div>
+                        <div class="row greyText">
+                            Find heart-pounding adventures and exhilarating activities that are perfect for adrenaline junkies.
+                        </div>
+                    </div>
+                    <!-- end of Thrill-Seeker's Paradise section -->
+                </div>
+                <div class="row">
+                    <div class="col-1 d-flex justify-content-end">
+                        <span class="material-symbols-outlined specialBlueText bold">
+                            task_alt
+                        </span>
+                    </div>
+                    <div class="col-11">
+                        <div class="row bold steTitle">
+                            Local Insider Tips
+                        </div>
+                        <div class="row greyText">
+                            Get exclusive recommendations and insider insights to make the most of your travel experience.
+                        </div>
+                    </div>
+                    <!-- end of local insder Tips section -->
+                </div>
+            </div>
+            <!-- end of row -->
+        </div>
+        <!-- end of container fluid -->
+    </div>
+
+    <!-- Sectoin 5: Join the Adventure -->
+
+    <div class="container-fluid" id="joinTheAdventure">
+        <div class="row justify-content-center text-center" id="joinTheAdventureTitle">
+            <h1 class="col bold specialBlueText">
+                Join the Adventure
+            </h1>
+        </div>
+        <div class="row justify-content-center" id="whyEMDescription">
+            <p class="col-xl-8 col-md-10 col-sm-12 text-center greyText">
+                Become part of our community and embark on a journey filled with excitement and unforgettable memories.
+            </p>
+        </div>
+
+        <div class="row text-center" id="threeStatsCol">
+            <div class="col-4">
+                <div class="row d-flex align-items-center greyText">
+                    <span class="specialBlueText bold">
+                        1,000+
+                    </span>
+                </div>
+                <div class="row greyText d-flex justify-content-center">
+                    Thrilling Acitvities
+                </div>
+                <!-- end of thrilling activities col -->
+            </div>
+            <div class="col-4">
+                <div class="row d-flex align-items-center greyText">
+                    <span class="specialBlueText bold">
+                        1 Million+
+                    </span>
+                </div>
+                <div class="row greyText d-flex justify-content-center">
+                    Explorable Destinations
+                </div>
+                <!-- end of explorable destinations col -->
+            </div>
+            <div class="col-4">
+                <div class="row d-flex align-items-center greyText">
+                    <span class="specialBlueText bold">
+                        Infinite
+                    </span>
+                </div>
+                <div class="row greyText d-flex justify-content-center">
+                    Memories and Connections
+                </div>
+                <!-- end of memories and connections col -->
+            </div>
+            <!-- end of three stats col -->
+        </div>
+        <!-- end of why Explore More container-fluid-->
+    </div>
+
+    <!-- Section n/a" Footer -->
+
+    <footer class="container-fluid" id="footerSection">
+        <div class="row">
+            <div class="col d-flex align-items-center bold" id="exploreMoreFooter">
+                <span class="material-symbols-outlined">
+                    flutter
+                </span>
+                ExploreMore
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-sm-12" id="footerNote">
+                Ready to begin your next adventure? Connect with us and start exploring today!
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col d-flex align-items-center" id="copywriteFooter">
+                <span class="material-symbols-outlined">
+                    copyright
+                </span>
+                2024 ExploreMore. All Rights Reserved.
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>

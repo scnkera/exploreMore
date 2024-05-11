@@ -1,9 +1,10 @@
 /* Website Wide Features CSS */
 #homeSection,
 #whyExploreMoreSecton,
+#savorTheExperience,
 #joinTheAdventure,
 #footerSection {
-    box-shadow: -10px 0px 25px #01161e;
+    box-shadow: -10px 0px 15px #01161e;
 }
 
 .bold {
@@ -19,28 +20,6 @@
 }
 
 /* Seciont 1: Main Content */
-
-
-/* #homePageMotto,
-#homePageDescription,
-#homePageButtons {
-    border: 4px solid red;
-}
-#navBar {
-    border: 4px solid black;
-}
-#mainHomePageContent,
-#downArrow {
-    border: 3px solid white;
-} */
-
-
-/* remove above */
-
-/* MAIN TOP PAGE CONTENT */
-
-
-
 .container-fluid {
     min-width: 925px;
 }
@@ -147,7 +126,6 @@
     padding: 0;
 }
 
-
 #homeSection {
     background-image: url("../static/skylineDark.jpg");
     min-height: 100vh;
@@ -188,7 +166,6 @@
     text-shadow: 2px 2px black;
     letter-spacing: 1px;
 }
-
 #homePageExploreNow {
     border-radius: 5px;
     height: 40px;
@@ -202,7 +179,6 @@
     border: 5px solid white;
     font-weight: 700;
 }
-
 #homePageLearnMore {
     border-radius: 5px;
     height: 40px;
@@ -233,7 +209,6 @@
     cursor: pointer;
     color: #4285f4;
 }
-
 .bounce {
     animation: bounce 3s infinite;
 }
@@ -264,8 +239,12 @@
     border: 1px solid red;
 } */
 
+
+/* Section 2: Why Explore Now */
+
+
 #whyExploreMoreSecton {
-    padding: 150px 0;
+    padding: 175px 0;
 }
 
 #whyEMTitle {
@@ -285,7 +264,7 @@
 
 }
 
-/* Join the Adventure Section */
+/* Section 3: Join the Adventure Section */
 
 #joinTheAdventure {
     padding: 100px 0;
@@ -308,7 +287,31 @@
     }
 }
 
-/* Section: Footer */
+/* Section 3: Savor the Experience */
+#savorTheExperience{
+    padding: 50px 25px;
+    background-color: #dddddb;
+}
+
+.steTitle,
+.textBlock span{
+    margin-top: 50px;
+}
+
+.textBlock{
+    padding-left: 75px;
+}
+
+.imageStyle{
+    border-radius: 10px;
+    /* width: 100%; */
+}
+/* Section 4: Discover Your Next Adventure */
+#discoverYourAdventure{
+    padding: 50px 25px;
+}
+
+/* Section N/A: Footer */
 
 #footerSection {
     background-color: #4f4f4f;
@@ -329,3 +332,20 @@
         border-top: 2px solid white;
     }
 }
+
+/* Border boxes for debugging code */
+
+/* #homePageMotto,
+#homePageDescription,
+#homePageButtons {
+    border: 4px solid red;
+}
+#navBar {
+    border: 4px solid black;
+}
+#mainHomePageContent,
+#downArrow {
+    border: 3px solid white;
+} */
+
+/* remove above */
