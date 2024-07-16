@@ -1,0 +1,49 @@
+#homeSection {
+    background-image: none;
+    background-color: #003166;
+}
+
+.col-4{
+    height: 350px;
+    padding: 20px 10px;
+}
+
+.location-card{
+    border: 1px solid rgb(228, 206, 154);
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* background image styling */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.location-card:hover {
+    transform: scale(1.1);
+}
+
+#ny_button {
+    background-image: url("../static/ny.jpg");
+}
+
+#paris_button {
+    background-image: url("../static/paris.jpg");
+}
+
+#london_button {
+    background-image: url("../static/london.jpg");
+}
+
+#rome_button {
+    background-image: url("../static/rome.jpg");
+}
+
+#lisbon_button {
+    background-image: url("../static/lisbon.jpg");
+}
+
+#istanbul_button {
+    background-image: url("../static/istanbul.jpg");
+}
