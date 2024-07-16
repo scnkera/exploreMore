@@ -1,6 +1,6 @@
 #homeSection {
     background-image: none;
-    background-color: #003166;
+    background-color: #1e5374;
     #map {
         height: 75vh;
         margin: 50px;
@@ -16,7 +16,7 @@
             font-weight: bold;
         }
         .map-icon:hover {
-            color: #003166;
+            color: #1e5374;
             cursor: pointer;
         }
     }
