@@ -1,0 +1,357 @@
+/* Website Wide Features CSS */
+#homeSection,
+#whyExploreMoreSecton,
+#savorTheExperience,
+#joinTheAdventure,
+#footerSection {
+    box-shadow: -10px 0px 15px #01161e;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.greyText {
+    color: rgb(106, 104, 104);
+}
+
+.specialBlueText {
+    color: #4285f4;
+}
+
+/* Seciont 1: Main Content */
+.container-fluid {
+    min-width: 925px;
+}
+
+#searchQueryInput {
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    /* padding: 0 3.5rem 0 1.5rem; */
+    font-size: 1rem;
+    height: 50px;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+#searchQueryInput:hover {
+    width: 100%;
+}
+
+
+#searchQuerySubmit {
+    margin-left: -3rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#searchQuerySubmit span:hover {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+#navBar {
+    padding: 10px 0px;
+    /* border: 4px solid black; */
+}
+
+#navPageSections {
+    overflow-x: scroll;
+}
+
+/* Home Page Animation */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#mainHomePageContent {
+    #homePageMottoAnimation {
+        animation: fadein ease-in 1s;
+    }
+
+    #homePageDescriptionAnimation {
+        animation-delay: 1s;
+        animation-name: fadein;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .homePageButtonsAnimation {
+        animation-name: fadein;
+        animation-delay: 3s;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+}
+
+#homePageName {
+    font-size: 30px;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+#navPageSections span {
+    padding: 10px;
+    color: white;
+}
+
+#navPageSections {
+    .navEffect {
+        text-decoration: none;
+    }
+    
+    .navEffect:hover {
+        cursor: pointer;
+        border-bottom: 5px solid whitesmoke;
+        padding-bottom: 0;
+    }
+}
+
+#exploreMoreLogo {
+    font-size: 50px;
+    align-items: center;
+}
+
+#mainHomePageContent {
+    /* border: 5px solid red; */
+    height: calc(100vh - 248px);
+    padding: 0;
+}
+
+#homeSection {
+    background-image: url("../static/skylineDark.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    padding: 0;
+    width: 100vw;
+    border: 2.5px solid #21437a;
+}
+
+#homePageInfo {
+    color: white;
+    margin: 0;
+    padding-left: 25px;
+}
+
+#homePageMotto {
+    font-size: 75px;
+    text-shadow: 4px 4px black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 100px;
+}
+
+#homePageMotto,
+#homePageDescription,
+#homePageButtons {
+    /* border: 4px solid red; */
+    margin: 0 auto;
+
+}
+
+#homePageButtons {
+    padding-top: 30px;
+}
+
+#homePageDescription {
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1px;
+}
+#homePageExploreNow {
+    border-radius: 5px;
+    height: 40px;
+    border: 2px solid white;
+    margin-right: 5px;
+    background-color: unset;
+    color: white;
+}
+
+#homePageExploreNow:hover {
+    border: 5px solid white;
+    font-weight: 700;
+}
+#homePageLearnMore {
+    border-radius: 5px;
+    height: 40px;
+    border: 2px solid #4285f4;
+    margin-left: 5px;
+    background-color: #4285f4;
+    color: white;
+}
+
+#homePageLearnMore:hover {
+    font-weight: 700;
+    border: 2px solid #689df6;
+    background-color: #689df6;
+}
+
+
+#downArrow {
+    height: 200px;
+}
+
+
+#mainContentArrow {
+    font-size: 100px;
+    color: white;
+}
+
+#mainContentArrow:hover {
+    cursor: pointer;
+    color: #4285f4;
+}
+.bounce {
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* WHY EXPLORE MORE PAGE COTENET */
+
+/* #whyExploreMoreSecton,
+#whyExploreMoreSecton  div{
+    border: 1px solid red;
+} */
+
+
+/* Section 2: Why Explore Now */
+
+
+#whyExploreMoreSecton {
+    padding: 175px 0;
+}
+
+#whyEMTitle {
+    margin-bottom: 10px;
+}
+
+#threeFeaturesCol {
+    .col-4 {
+        padding: 0 40px;
+    }
+
+    span {
+        padding: 25px 0;
+        font-size: 75px;
+    }
+
+
+}
+
+/* Section 3: Join the Adventure Section */
+
+#joinTheAdventure {
+    padding: 100px 0;
+    background-color: #dddddb;
+}
+
+#joinTheAdventureTitle {
+    margin-bottom: 10px;
+}
+
+#threeStatsCol {
+    padding-top: 70px;
+
+    .col-4 {
+        padding: 0 40px;
+    }
+
+    span {
+        font-size: 75px;
+    }
+}
+
+/* Section 3: Savor the Experience */
+#savorTheExperience{
+    padding: 50px 25px;
+    background-color: #dddddb;
+}
+
+.steTitle,
+.textBlock span{
+    margin-top: 50px;
+}
+
+.textBlock{
+    padding-left: 75px;
+}
+
+.imageStyle{
+    border-radius: 10px;
+    /* width: 100%; */
+}
+/* Section 4: Discover Your Next Adventure */
+#discoverYourAdventure{
+    padding: 50px 25px;
+}
+
+/* Section N/A: Footer */
+
+#footerSection {
+    background-color: #4f4f4f;
+    color: white;
+    padding: 50px 50px;
+
+    #exploreMoreFooter {
+        font-size: 20px;
+    }
+
+    #exploreMoreFooter,
+    #footerNote,
+    #copywriteFooter {
+        padding: 20px 0;
+    }
+
+    #copywriteFooter {
+        border-top: 2px solid white;
+    }
+}
+
+/* Border boxes for debugging code */
+
+/* #homePageMotto,
+#homePageDescription,
+#homePageButtons {
+    border: 4px solid red;
+}
+#navBar {
+    border: 4px solid black;
+}
+#mainHomePageContent,
+#downArrow {
+    border: 3px solid white;
+} */
+
+/* remove above */

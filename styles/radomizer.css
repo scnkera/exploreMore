@@ -1,0 +1,24 @@
+#homeSection {
+    background-image: none;
+    background-color: #003166;
+    #map {
+        height: 75vh;
+        margin: 50px;
+        background-image: url("../static/map.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 10px solid white;
+        border-radius: 25px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        .map-icon{
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .map-icon:hover {
+            color: #003166;
+            cursor: pointer;
+        }
+    }
+}
+
