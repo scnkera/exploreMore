@@ -58,11 +58,6 @@
 
 #navBar {
     padding: 10px 0px;
-    /* border: 4px solid black; */
-}
-
-#navPageSections {
-    overflow-x: scroll;
 }
 
 /* Home Page Animation */
@@ -158,7 +153,6 @@
 #homePageMotto,
 #homePageDescription,
 #homePageButtons {
-    /* border: 4px solid red; */
     margin: 0 auto;
 
 }
@@ -338,20 +332,3 @@
         border-top: 2px solid white;
     }
 }
-
-/* Border boxes for debugging code */
-
-/* #homePageMotto,
-#homePageDescription,
-#homePageButtons {
-    border: 4px solid red;
-}
-#navBar {
-    border: 4px solid black;
-}
-#mainHomePageContent,
-#downArrow {
-    border: 3px solid white;
-} */
-
-/* remove above */
